@@ -9,9 +9,10 @@ const EventItem = (props) => {
   });
   const formattedAddress = location.replace(",", "\n");
   const exploreLink = `/events/${id}`;
+  console.log(image);
   return (
     <li>
-      <img src="" alt="" />
+      <img src={image} alt="" />
       <div>
         <div>
           <h2>{title}</h2>
