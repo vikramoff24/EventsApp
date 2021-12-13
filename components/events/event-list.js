@@ -1,7 +1,7 @@
 import React from "react";
 import EventItem from "./event-item";
 import classes from "./event-list.module.css";
-const eventList = (props) => {
+const EventList = (props) => {
   const { items } = props;
   return (
     <ul className={classes.list}>
@@ -19,4 +19,4 @@ const eventList = (props) => {
   );
 };
 
-export default eventList;
+export default EventList;
